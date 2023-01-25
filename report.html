@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamster Care 101</title>
+    <link rel="stylesheet" type="text/css" href="assets/CSS/site.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <script src="assets/scripts/site.js"></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <div class="navbar">
+                <div class="logo">
+                    <img src="assets/images/logo.png" alt="Elitsa Co logo">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="breeds.html">Breeds</a></li>
+                        <li><a href="care.html">Hamster Care</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="report.html">Report</a></li>
+                    </ul>
+                </nav>
+                <img src="assets/images/menu.png" alt="menu icon" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+    </header>
+
+    <div id="content">
+        <div>
+            <section>
+                <hr>
+                <h2> Problem Description (%10) </h2>
+                <hr>
+                <p>
+                    Hamster Care 101 is a website that provides users with a comprehensive <br>information that will
+                    help
+                    them learn more about hamsters, decide whether or not they should get a hamster and all the cost
+                    and
+                    care involved. <br>There is basic info on each hamster breed, a blog page with blog posts that
+                    provide
+                    information on different hamster topics, a hamster care page with videos and information about a
+                    hamsters basic needs <br>and a cost calculator to help users decide whether they can afford a
+                    hamster
+                    <br><br>
+                    Ø Describe the archetypical users of the site.
+                    <br><br>
+                    The archetypical users of the site are people above 12 who are interested and caring for
+                    hamsters as pets and need more information.
+                    <br><br>
+                    Ø What problem does the site solve?
+                    Hamsters tend to be under cared for and even abused because they are sold for cheap.<br>
+                    My website provides easy to access info on hamsters and will hopefully encourage hamster owners to
+                    <br>
+                    care better for their pets.
+                </p>
+            </section>
+        </div>
+        <section>
+            <hr>
+            <h2> Research (10%)</h2>
+            <hr>
+            <p>
+                Ø Evaluate the site layout and site content.
+                <br><br>
+                Ø You must look at 3 websites as part of your research.
+                <br><br>
+                <img class="screenshot" src="assets/images/hamsterGuruBlogPage.png"
+                    alt="Screenshot of the Hamster Guru Blog Page">
+                <br>The first website I researched was Hamster Guru (https://hamsterguru.com/blog/)<br>
+                <br>The way the blog posts are layed out is very similar to mine and is an exact representation of
+                the
+                layout I was going for for the blog page.
+                It provies similar information to my website however it's diffucult to navigate and it is not visually
+                appealing
+
+                <br><br>
+                <img class="screenshot" src="assets/images/erinsAnimals.png"
+                    alt="Screenshot of the home Page of Erin Animals">
+                <br>The second website I researched is called Erin Animals and it was made with wix.com
+                (https://erinshamsters.wixsite.com/hamsters). The website has a lot of useful information on hamsters,
+                however it's unresponsive and looks outdated.
+                <br><br>
+                <img class="screenshot" src="assets/images/hamsterSoc.png"
+                    alt="Screenshot of Hamster Society Singapore ">
+                <img class="screenshot" src="assets/images/hamsterSoc2.png"
+                    alt="Screenshot of Hamster Society Singapore ">
+                <br>The third website I researched is called Hamster Society Singapore
+                (https://www.hamstersociety.sg/hamstercareblog). I really like the layout of it, it looks really clean,
+                but it was made using squrespace which is a bit lazy.
+            </p>
+        </section>
+
+        <div>
+            <section>
+                <hr>
+                <h2>Technology Selection and Site Architecture (20%)</h2>
+                <hr>
+                <p>
+                    Version of HTML/CSS to be used - HTML5 and CSS3
+                    <br>
+                    Ø Plan for site layout and responsive design.
+                    <br><br>
+                    My plan for the site layout is using a lot of div elemets called col for collum and row for a row to
+                    structure it.
+                    I will first write up all the html and the css then add JavaScript. <br>
+                    I will be testing the website as I make it to make sure it looks good on phone, tablets and desktops
+                    and
+                    I will be styling certain elements with media queries to make sure its responsive.<br>
+                    The site will contain 5 main pages, a home page, hamster breeds page, hamster care page, a blog page
+                    and a report page.
+                    Additional 3 blog post pages will be added as well as a seperate contact page.<br>
+                    The 5 main pages will be laid out in the top navigation bar, or the drop down menu on smaller
+                    devices ,
+                    and the additional pages will be able to be accessed from either the blog for the blog post pages or
+                    the footer for the contact page.
+
+                    Ø How do we expect users to view the site (Phone/tablet/PC etc...)?
+                    <br><br>
+                    The users are mainly expected to view this website on a PC or a phone however the website is also
+                    repsponsive on tablets.
+                    Ø Cross Browser Compatibility strategy?
+                    <br><br>
+                    I will run the website on 3 different browsers, chrome,
+                    safari and firefox to check for compatibility. I will be checking all the pages on each browser and
+                    see if its responsive<br>
+                </p>
+                <section>
+                    <h4>
+                        Chrome
+                    </h4>
+                    <img class="screenshot" src="assets/images/desktop.png">
+                    <p>
+                        The website was developed and tested mainly with chrome so it all works as expected.
+                    </p>
+                </section>
+                <section>
+                    <h4>
+                        Safari
+                    </h4>
+                    <img class="screenshot" src="assets/images/safari1.png">
+                    <img class="screenshot" src="assets/images/safari2.png">
+                    <p>
+                        The website looks exactly the same on Safari as it does on Chrome, one small difference
+                        it how the drop-down selection looks on the blog posts page but it is not a major aesthetic
+                        disaster.
+                    </p>
+                </section>
+                <section>
+                    <h4>
+                        FireFox
+                    </h4>
+                    <img class="screenshot" src="assets/images/Screenshot 2021-12-15 at 08.07.34.png">
+                    <p>
+                        The website looks really good on firefox , no problems or major differences
+                    </p>
+                </section>
+
+
+            </section>
+        </div>
+        <div>
+
+        </div>
+        <section>
+            <hr>
+            <h2>
+                JavaScript Functionality (10%)
+            </h2>
+            <hr>
+            I have used JavaScript in a few different ways to make my website functional.<br><br>
+            <ol>
+                <li>I made a base carousel using JavaScript which then I used for the breeds page to show
+                    all 5 hamster breeds on a different slide, you can also click on the
+                    images of the breeds to move the slide position to the selected breed.<br>
+                    I also used the carousel for the hamster care page to show videos to related topics.<br>
+                    A carousel can also be found on the home page to show the most recent posts.
+                </li>
+                <br>
+                <li>
+                    I used JavaScript in the Hamster Care page for the calculator.<br>
+                    It gets input from the user and calculates how much would hamster csre cost for that person.
+                </li>
+                <br>
+                <li>
+                    I used JavaScript in the contact form so it shows error messages when
+                    the user doesn't enter their name/enters an invalid email/don't enter a message
+                    and it clears the messages once the user fullfiles the requirement.<br>
+                    Upon successful completion a pop up Success window shows.
+                </li>
+                <br>
+                <li>
+                    I used JavaScript for the toggle menu.
+                    <br>When the website is viewed on smaller devices a menu icon appers and when you click it there
+                    is a drop down menu.
+                </li>
+            </ol>
+
+        </section>
+        <div>
+            <section>
+                <hr>
+                <h2>
+                    Low Fidelity Prototype (10%)
+                </h2>
+                <hr>
+                    <img class="screenshot" src="assets/images/HomeLofi.jpeg">
+                    <img class="screenshot" src="assets/images/BreedsLofi.jpeg">
+                    <img class="screenshot" src="assets/images/blogLofi.jpeg">
+                    <img class="screenshot" src="assets/images/ContactLofi.jpeg">
+                    <p>
+                        The layout of the website will be as shown, there will be a navigation menu with the website logo and the main pages, 
+                        home, breeds, hamster care and report page. 
+                        Each page will have the same navigation menu and footer.
+                        The blog posts will be shown in the blog page as boxes of equal width and lenght with some space in between. 
+                        Details like a picture, date, title and description of each blog post will be shown on screen, as shown in the drawing.
+                        The hamster breeds page will have information on each hamster breed in a carousel format, with pictures to select the breed
+                        and slider buttons to move to the next or previous breed.
+                    </p>
+
+                <ol>
+                    <br>
+                    <li>
+                        Visibility of system status<br><br>
+                        On the contact form the user is told exactly what they need to fill in,
+                        with appropriate error or success messages being shown to them.<br>
+
+                    </li>
+                    <br>
+                    <li>
+                        Match between system and the real world<br><br>
+
+                        All the language on the website is simle to understand and appropriate for the target
+                        audiance. No complicated or technical language was used and all info is presented<br>
+                        in a clear and logical manner.
+                    </li>
+                    <br>
+                    <li>
+                        User control and freedom <br><br>
+                        The user is well informed of where they are on the page.<br>
+                        All links are titled, as well as all pages so the user can see exactly where they are.
+                        The menu is shown on every page so the user can click trough pages easily,
+                        for the carousel there are next and previous buttons added.
+                    </li>
+                    <br>
+                    <li>
+                        Consistency and standards<br><br>
+                        My website is following the common website standards,
+                        every function of the website is made to be similar to other websites so the user would
+                        immediately know how to use them.
+                    </li>
+                    <br>
+                    <li>
+                        Error prevention<br><br>
+                        One potential error is the youtube iframes not working due to the videos getting deleted or
+                        taken down. This can be solved by using original videos that are saved in the aseets folder
+                        instead of iframes.
+                    </li>
+                    <br>
+                    <li>
+                        Recognition rather than recall<br><br>
+                        All information the user needs on on screen for any page of the website.
+                    </li>
+                    <br>
+                    <li>
+                        Flexibility and efficiency of use<br><br>
+                        Both experienced and non- experienced users can use the site as the layout is
+                        very simple and common.
+                    </li>
+                    <br>
+                    <li>
+                        Aesthetic and minimalist design<br><br>
+                        The website has only the minimum information required on screen.
+                    </li>
+                    <br>
+                    <li>
+                        Help users recognize, diagnose, and recover from errors<br><br>
+                        Any issues or problems that occur when using the site are
+                        presented in a clear manner and the user can easily
+                        understand and offer a clear solution on how to solve the
+                        problem.
+
+                    </li>
+                    <br>
+                    <li>
+                        Help and documentation<br><br>
+                        -To access different pages, click the link in the menu.<br>
+                        -To use the calculator, enter the amount of the hamster cost in the specified area,
+                        then when you are all done, click the submit button and see the total to get your total.
+
+                    </li>
+                </ol>
+            </section>
+        </div>
+        <div>
+            <section>
+                <hr>
+                <h2>
+                    Development Plan (10%)
+                </h2>
+                <hr>
+
+                <p>
+                    <br><br>
+                    All the pages will have the same navigation bar and footer, therefore they will share the same css
+                    for that.<br>
+                    All the titles and texts on all the pages are styled the same.<br>
+                    The carousel share the same css styling, except for the hamster breeds carousel which has some extra
+                    styles.<br>
+                    A similar color pallete is used troughout the website for consistancy.
+                </p>
+            </section>
+        </div>
+        <div>
+            <section>
+                <hr>
+                <h2>
+                    Testing Plan (10%)
+                </h2>
+                <hr>
+                <p>
+                    I checked every html page using the The Nu Html Checker (https://validator.w3.org/nu/) for my HTMl
+                    validation. I checked every page and corrected every warning and error so my website is valid.
+                    <br><br>
+                    I used the W3C CSS validator (https://jigsaw.w3.org/css-validator/) to validate my CSS file and
+                    corrected any errors.
+
+                    Ø Is the site Responsive? Test screenshots from Chrome Developer must be included in this section.
+                    <br><br>
+                    Yes the site is responsive, here are some screenshots that show all the website pages being
+                    responsive.
+                </p>
+                <section>
+                    <h4>On Desktop </h4>
+                    <br>
+                    <img class="screenshot" src="assets/images/desktop.png"
+                        alt="screenshot of the main page on desktop">
+                    <br>
+                    <img class="screenshot" src="assets/images/breedsDesktop.png"
+                        alt="screenshot of the breeds page on desktop">
+                    <img class="screenshot" src="assets/images/BreedsDesktop2.png"
+                        alt="screenshot of the breeds page on desktop">
+                    <br>
+                    <img class="screenshot" src="assets/images/careDesk1.png"
+                        alt="screenshot of the care page on desktop">
+                    <img class="screenshot" src="assets/images/careDesk2.png"
+                        alt="screenshot of the care page on desktop">
+                    <img class="screenshot" src="assets/images/careDesk3.png"
+                        alt="screenshot of the care page on desktop">
+                    <br>
+                    <img class="screenshot" src="assets/images/BlogDesktop.png"
+                        alt="screenshot of the blog page on desktop">
+                    <br>
+                    <img class="screenshot" src="assets/images/contactDesktop.png" alt="conatct page on desktop">
+                </section>
+                <section>
+                    <h4>On phone </h4>
+                    <br>
+                    <img class="screenshot" src="assets/images/phone.png" alt="screenshot of the main page on a phone">
+                    <img class="screenshot" src="assets/images/phone2.png" alt="screenshot of the main page on a phone">
+                    <br>
+                    <img class="screenshot" src="assets/images/breedsPhone.png"
+                        alt="screenshot of the breeds page on a phone">
+                    <img class="screenshot" src="assets/images/breedsPhone2.png"
+                        alt="screenshot of the breeds page on a phone">
+                    <img class="screenshot" src="assets/images/breedsPhone3.png"
+                        alt="screenshot of the breeds page on a phone">
+                    <br>
+                    <img class="screenshot" src="assets/images/carePhone1.png"
+                        alt="screenshot of the care page on a phone">
+                    <img class="screenshot" src="assets/images/carePhone2.png"
+                        alt="screenshot of the care page on a phone">
+                    <img class="screenshot" src="assets/images/carePhone3.png"
+                        alt="screenshot of the care page on a phone">
+                    <img class="screenshot" src="assets/images/BlogPhone.png"
+                        alt="screenshot of the blog page on a phone">
+                    <br>
+                    <img class="screenshot" src="assets/images/contactPhone.png" alt="conatct page on phone">
+                </section>
+                <section>
+                    <h4>On Tablet </h4>
+                    <br>
+                    <img class="screenshot" src="assets/images/ipad.png" alt="screenshot of the main page on a tablet">
+                    <img class="screenshot" src="assets/images/ipad2.png" alt="screenshot of the main page on a tablet">
+                    <img class="screenshot" src="assets/images/ipad3.png" alt="screenshot of the main page on a tablet">
+                    <br>
+                    <img class="screenshot" src="assets/images/breedsIpad.png"
+                        alt="screenshot of the breeds page on a tablet">
+                    <br>
+                    <img class="screenshot" src="assets/images/BlogTablet.png"
+                        alt="screenshot of the blog page on a tablet">
+                    <img class="screenshot" src="assets/images/BlogTablet3.png"
+                        alt="screenshot of the blog page on a tablet">
+                    <br>
+                    <img class="screenshot" src="assets/images/contactIpad.png" alt="conatct page on tablet">
+                    <br>
+                </section>
+
+            </section>
+        </div>
+        <div>
+
+            <section>
+                <hr>
+                <h2>
+                    Site Evaluation (10%)
+                </h2>
+                <hr>
+                <ol>
+                    <br>
+                    <li>
+                        Visibility of system status<br><br>
+                        On the contact form the user is told exactly what they need to fill in,
+                        with appropriate error or success messages being shown to them.<br>
+
+                    </li>
+                    <br>
+                    <li>
+                        Match between system and the real world<br><br>
+
+                        All the language on the website is simle to understand and appropriate for the target
+                        audiance. No complicated or technical language was used and all info is presented<br>
+                        in a clear and logical manner.
+                    </li>
+                    <br>
+                    <li>
+                        User control and freedom <br><br>
+                        The user is well informed of where they are on the page.<br>
+                        All links are titled, as well as all pages so the user can see exactly where they are.
+                        The menu is shown on every page so the user can click trough pages easily,
+                        for the carousel there are next and previous buttons added.
+                    </li>
+                    <br>
+                    <li>
+                        Consistency and standards<br><br>
+                        My website is following the common website standards,
+                        every function of the website is made to be similar to other websites so the user would
+                        immediately know how to use them.
+                    </li>
+                    <br>
+                    <li>
+                        Error prevention<br><br>
+                        One potential error is the youtube iframes not working due to the videos getting deleted or
+                        taken down. This can be solved by using original videos that are saved in the aseets folder
+                        instead of iframes.
+                    </li>
+                    <br>
+                    <li>
+                        Recognition rather than recall<br><br>
+                        All information the user needs on on screen for any page of the website.
+                    </li>
+                    <br>
+                    <li>
+                        Flexibility and efficiency of use<br><br>
+                        Both experienced and non- experienced users can use the site as the layout is
+                        very simple and common.
+                    </li>
+                    <br>
+                    <li>
+                        Aesthetic and minimalist design<br><br>
+                        The website has only the minimum information required on screen.
+                    </li>
+                    <br>
+                    <li>
+                        Help users recognize, diagnose, and recover from errors<br><br>
+                        Any issues or problems that occur when using the site are
+                        presented in a clear manner and the user can easily
+                        understand and offer a clear solution on how to solve the
+                        problem.
+
+                    </li>
+                    <br>
+                    <li>
+                        Help and documentation<br><br>
+                        -To access different pages, click the link in the menu.<br>
+                        -To use the calculator, enter the amount of the hamster cost in the specified area,
+                        then when you are all done, click the submit button and see the total to get your total.
+
+                    </li>
+                </ol>
+            </section>
+        </div>
+        <div>
+
+            <section>
+                <hr>
+                <h2>
+                    Weekly Logs (10%)
+                </h2>
+                <hr>
+                <section>
+                    <h2 class="title">Week 1</h2>
+                    <iframe
+                        src="https://tudublin-my.sharepoint.com/personal/c21320836_mytudublin_ie/_layouts/15/Doc.aspx?sourcedoc={59b61826-a290-484b-b7a4-ef9cc10ab585}&amp;action=embedview"
+                        width="476px" height="288px" frameborder="0">This is an embedded <a target="_blank"
+                            href="https://office.com">Microsoft Office</a> document, powered by <a target="_blank"
+                            href="https://office.com/webapps">Office</a>.</iframe>
+                </section>
+                <section>
+                    <h2 class="title">Week 2</h2>
+                    <iframe
+                        src="https://tudublin-my.sharepoint.com/personal/c21320836_mytudublin_ie/_layouts/15/Doc.aspx?sourcedoc={e58bc231-ed8a-4e9e-8300-4db044403f6d}&amp;action=embedview"
+                        width="476px" height="288px" frameborder="0">This is an embedded <a target="_blank"
+                            href="https://office.com">Microsoft Office</a> document, powered by <a target="_blank"
+                            href="https://office.com/webapps">Office</a>.</iframe>
+                </section>
+                <section>
+                    <h2 class="title">Week 3</h2>
+                    <iframe
+                        src="https://tudublin-my.sharepoint.com/personal/c21320836_mytudublin_ie/_layouts/15/Doc.aspx?sourcedoc={4837bcae-9533-4bce-bb1c-6069a2839be4}&amp;action=embedview"
+                        width="476px" height="288px" frameborder="0">This is an embedded <a target="_blank"
+                            href="https://office.com">Microsoft Office</a> document, powered by <a target="_blank"
+                            href="https://office.com/webapps">Office</a>.</iframe>
+                </section>
+                <section>
+                    <h2 class="title">Week 4</h2>
+                    <iframe
+                        src="https://tudublin-my.sharepoint.com/personal/c21320836_mytudublin_ie/_layouts/15/Doc.aspx?sourcedoc={bd482165-0bf5-4283-8156-1ecf25a876bd}&amp;action=embedview"
+                        width="476px" height="288px" frameborder="0">This is an embedded <a target="_blank"
+                            href="https://office.com">Microsoft Office</a> document, powered by <a target="_blank"
+                            href="https://office.com/webapps">Office</a>.</iframe>
+                </section>
+                <section>
+
+                    <h2 class="title">Week 5</h2>
+                    <iframe
+                        src="https://tudublin-my.sharepoint.com/personal/c21320836_mytudublin_ie/_layouts/15/Doc.aspx?sourcedoc={9710e62f-4358-4912-a54a-708aaf7a9b54}&amp;action=embedview"
+                        width="476px" height="288px" frameborder="0">This is an embedded <a target="_blank"
+                            href="https://office.com">Microsoft Office</a> document, powered by <a target="_blank"
+                            href="https://office.com/webapps">Office</a>.</iframe>
+                </section>
+
+            </section>
+        </div>
+        <div>
+            <section>
+                <hr>
+                <h2>
+                    Resources
+                </h2>
+                <hr>
+                <p>
+                    <br>
+                    https://www.youtube.com/watch?v=QT1ya4Ut40o&t=671s
+                    <br>
+                    https://www.youtube.com/watch?v=gor5BvT2z88&t=1517s
+                    <br>
+                    https://www.youtube.com/watch?v=yQimoqo0-7g
+                    <br>
+                    Web Development 1 CMPU1031: 2021-22 course
+                </p>
+            </section>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <section>
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p> Download Availabke for Androind or IOS</p>
+                    <div class="app-logo">
+                        <img src="assets/images/Google-Play-Icon.png" alt="google play icon">
+                        <img src="assets/images/apple-store.png" alt="apple store icon">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="assets/images/logo.png" alt="logo">
+                    <p>
+                        Level up your hamster's world!
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul class="footerUl">
+                        <li class="footerLi"><a class="footerA" href="contact.html">Contact</a></li>
+                        <li class="footerLi"><a class="footerA" href="blog.html">Blog Posts</a></li>
+                        <li class="footerLi"><a class="footerA" href="care.html">Hamster Care</a></li>
+                        <li class="footerLi"><a class="footerA" href="breeds.html">Breeds</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow Us</h3>
+                    <ul class="footerUl">
+                        <li class="footerLi"><a class="footerA" href="#">Facebook</a></li>
+                        <li class="footerLi"><a class="footerA" href="#">Instagram</a></li>
+                        <li class="footerLi"><a class="footerA" href="#">Twitter</a></li>
+                        <li class="footerLi"><a class="footerA" href="#">TikTok</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2021 - Elitsa Koleva</p>
+        </section>
+    </footer>
+
+</body>
+
+</html>

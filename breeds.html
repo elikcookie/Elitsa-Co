@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamster Care 101</title>
+    <link rel="stylesheet" type="text/css" href="assets/CSS/site.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div>
+            <div class="navbar">
+                <div class="logo">
+                    <img src="assets/images/logo.png" alt="Elitsa Co logo">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="breeds.html">Breeds</a></li>
+                        <li><a href="care.html">Hamster Care</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="report.html">Report</a></li>
+                    </ul>
+                </nav>
+                <img src="assets/images/menu.png" alt="menu icon" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+    </header>
+    <main>
+        <hr>
+        <div class="small-container">
+            <div class="itemList">
+                <div class="row">
+                    <div class="col-1">
+                        <img onclick="roboHamsterSlide()" src="assets/images/roboHamster.jpeg" alt="robo Hamster">
+                        <img onclick="syrianHamsterSlide()" src="assets/images/SyrianHamster.jpeg" alt="Syrian Hamster">
+                        <img onclick="WinterWhiteHamsterSlide()" src="assets/images/winterWhite.jpeg"
+                            alt="winter white hamster">
+                        <img onclick="ChineseHamsterSlide()" src="assets/images/chineseHamster1.jpeg"
+                            alt="chinese hamster">
+                        <img onclick="CambellHamsterSlide()" src="assets/images/cambellHamster.jpeg"
+                            alt="cambell hamster">
+                    </div>
+                </div>
+            </div>
+            <div class="carousel3">
+                <div class="carousel-item3 carousel-item-visible3">
+                    <div class="hamster-breed">
+                        <h2 class="title">Roborovski Hamster</h2>
+                        <img src="assets/images/roboHamster.jpeg" alt="robo Hamster">
+                        <p>
+                            "The smallest and fastest of any hamster, the Rob or Robo is about the size of a
+                            bean when born and
+                            when fully grown is
+                            no bigger than an adult's thumb, or 2 to 3 inches. These shy little creatures
+                            originated in the
+                            deserts of Mongolia,
+                            China, and Russia.
+
+                            Dwarf Roborovski hamsters are curious beings that don't like to be held.1﻿ They are
+                            content to
+                            socialize with their own
+                            kind while you watch from outside their home.(The Spruce Pets,'Caring For Roborovski
+                            Hamsters')"
+                        </p>
+                    </div>
+
+                </div>
+                <div class="carousel-item3">
+                    <div class="hamster-breed">
+                        <h2 class="title">Syrian Hamster</h2>
+                        <img src="assets/images/SyrianHamster.jpeg" alt="Syrian Hamster">
+                        <p>
+                            The golden hamster or Syrian hamster (Mesocricetus auratus) is a rodent belonging to the
+                            hamster
+                            subfamily,
+                            Cricetinae.[2] Their natural geographical range is limited to a small arid region of
+                            northern Syria
+                            and southern Turkey.
+                            Their numbers have been declining in the wild due to a loss of habitat from agriculture
+                            and
+                            deliberate elimination by
+                            humans.[1] Thus, wild golden hamsters are now considered Vulnerable by the International
+                            Union for
+                            Conservation of
+                            Nature.[3] https://en.wikipedia.org/wiki/Golden_hamster
+                        </p>
+                    </div>
+
+                </div>
+                <div class="carousel-item3">
+                    <div class="hamster-breed">
+                        <h2 class="title">Winter White Hamster</h2>
+                        <img src="assets/images/winterWhite.jpeg" alt="winter white hamster">
+                        <p>
+                            The winter white dwarf hamster (Phodopus sungorus), also known as the Russian dwarf
+                            hamster,
+                            Djungarian hamster, striped
+                            dwarf hamster, Siberian hamster, or Siberian dwarf hamster, is one of three species of
+                            hamster in
+                            the genus Phodopus. It
+                            is ball-shaped and typically half the size of the Syrian hamster, so is called a dwarf
+                            hamster along
+                            with all Phodopus
+                            species. Features of the winter white hamster include a typically thick, dark grey
+                            dorsal stripe and
+                            furry feet. As
+                            winter approaches and the days shorten, the winter white dwarf hamster's dark fur is
+                            almost entirely
+                            replaced with white
+                            fur. In captivity, this does not usually happen as animals maintained as pets are
+                            generally housed
+                            indoors and exposed
+                            to artificial light that prevents the recognition of short winter daylengths. In the
+                            wild, they
+                            originate from the wheat
+                            fields of Kazakhstan, the meadows of Mongolia and Siberia, and the birch stands of
+                            Manchuria.
+
+                            https://en.wikipedia.org/wiki/Winter_white_dwarf_hamster
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel-item3">
+                    <div class="hamster-breed">
+                        <h2 class="title">Chinese Hamster</h2>
+                        <img src="assets/images/chineseHamster1.jpeg" alt="chinese hamster">
+                        <p>
+                            The Chinese hamster (Cricetulus griseus or Cricetulus barabensis griseus) is a
+                            rodent in the genus
+                            Cricetulus of the
+                            subfamily Cricetidae that originated in the deserts of northern China and Mongolia.
+                            They are
+                            distinguished by an
+                            uncommonly long tail in comparison to other hamsters, most of whose tails are
+                            stubby. Chinese
+                            hamsters are primarily
+                            nocturnal, however they will stay awake for brief periods, in between naps,
+                            throughout the day.
+                            https://en.wikipedia.org/wiki/Chinese_hamster
+                        </p>
+                    </div>
+                </div>
+
+                <div class="carousel-item3">
+                    <div class="hamster-breed">
+                        <h2 class="title">Cambell Hamster</h2>
+                        <img src="assets/images/cambellHamster.jpeg" alt="cambell hamster">
+                        <p>
+                            Campbell's dwarf hamster (Phodopus campbelli) is a species of hamster in the genus
+                            Phodopus. It was
+                            given its common
+                            name by Oldfield Thomas in honor of Charles William Campbell, who collected the
+                            first specimen in
+                            Mongolia on July 1,
+                            1902. It is distinguished from the closely related Djungarian hamster as it has
+                            smaller ears and no
+                            dark fur on its
+                            crown. Campbell's dwarf hamster typically has a narrow dorsal stripe compared to the
+                            Djungarian
+                            hamster and grey fur on
+                            the stomach. This hamster may be raised in captivity and kept as a small pet.
+
+                            https://en.wikipedia.org/wiki/Campbell%27s_dwarf_hamster
+                        </p>
+                    </div>
+                </div>
+                <div class="carousel_actions3">
+                    <button onclick="moveToPreviousSlide3()" id="carousel_btn_prev" aria-label="previous slide">
+                        &lt;</button>
+                    <button onclick="moveToNextSlide3()" id="carousel_btn_next" aria-label="next slide">></button>
+                </div>
+            </div>
+        </div>
+
+        <hr>
+    </main>
+
+    <footer>
+        <section>
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p> Download Availabke for Androind or IOS</p>
+                    <div class="app-logo">
+                        <img src="assets/images/Google-Play-Icon.png" alt="google play icon">
+                        <img src="assets/images/apple-store.png" alt="apple store icon">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="assets/images/logo.png" alt="logo">
+                    <p>
+                        Level up your hamster's world!
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul class="footerUl">
+                        <li class="footerLi"><a class="footerA" href="contact.html">Contact</a></li>
+                        <li class="footerLi"><a class="footerA" href="blog.html">Blog Posts</a></li>
+                        <li class="footerLi"><a class="footerA" href="care.html">Hamster Care</a></li>
+                        <li class="footerLi"><a class="footerA" href="breeds.html">Breeds</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow Us</h3>
+                    <ul class="footerUl">
+                        <li class="footerLi"><a class="footerA" href="#">Facebook</a></li>
+                        <li class="footerLi"><a class="footerA" href="#">Instagram</a></li>
+                        <li class="footerLi"><a class="footerA" href="#">Twitter</a></li>
+                        <li class="footerLi"><a class="footerA" href="#">TikTok</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2021 - Elitsa Koleva</p>
+        </section>
+    </footer>
+    <script src="assets/scripts/site.js"></script>
+</body>
+
+</html>

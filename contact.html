@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamster Care 101</title>
+    <link rel="stylesheet" type="text/css" href="assets/CSS/site.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;600;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div>
+            <div class="navbar">
+                <div class="logo">
+                    <img src="assets/images/logo.png" alt="Elitsa Co logo">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="breeds.html">Breeds</a></li>
+                        <li><a href="care.html">Hamster Care</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="report.html">Report</a></li>
+                    </ul>
+                </nav>
+                <img src="assets/images/menu.png" alt="menu icon" class="menu-icon" onclick="menutoggle()">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <form onsubmit="event.preventDefault(); validateForm()">
+                <h1>Contact Us!</h1>
+                <br>
+                <label for="name">Name: </label>
+                <input type="text" id="name" placeholder="Your Name">
+                <small class="error"></small>
+
+                <label for="email">Enter Email: </label>
+                <input type="text" id="email" placeholder="Your Email">
+                <small class="error"></small>
+                <br><br>
+                <input type="checkbox" id="newsletter" name="newsletter" value="newsletter">
+                <label id="checkbox">I want to recieve a monthly newsletter</label>
+                <br>
+
+                <label>Do you like hamsters?</label>
+                <input type="radio" id="yes" value="yes">Yes
+                <input type="radio" id="no" value="no">No
+                <br><br><br>
+
+                <label for="message">Message: </label>
+                <textarea id="message" placeholder="Your Message" rows="10"></textarea>
+                <small class="error"></small>
+
+                <div class="center">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <section>
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p> Download Availabke for Androind or IOS</p>
+                    <div class="app-logo">
+                        <img src="assets/images/Google-Play-Icon.png" alt="google play icon">
+                        <img src="assets/images/apple-store.png" alt="apple store icon">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="assets/images/logo.png" alt="logo">
+                    <p>
+                        Level up your hamster's world!
+                    </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul class="footerUl">
+                        <li class="footerLi"><a class="footerA" href="contact.html">Contact</a></li>
+                        <li class="footerLi"><a class="footerA" href="blog.html">Blog Posts</a></li>
+                        <li class="footerLi"><a class="footerA" href="care.html">Hamster Care</a></li>
+                        <li class="footerLi"><a class="footerA" href="breeds.html">Breeds</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Follow Us</h3>
+                    <ul class="footerUl">
+                        <li class="footerLi"><a class="footerA" href="#">Facebook</a></li>
+                        <li class="footerLi"><a class="footerA" href="#">Instagram</a></li>
+                        <li class="footerLi"><a class="footerA" href="#">Twitter</a></li>
+                        <li class="footerLi"><a class="footerA" href="#">TikTok</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2021 - Elitsa Koleva</p>
+        </section>
+    </footer>
+    <script src="assets/scripts/site.js"></script>
+</body>
+</html>
